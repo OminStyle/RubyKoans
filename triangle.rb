@@ -15,6 +15,12 @@
 #
 def triangle(a, b, c)
   # WRITE THIS CODE
+  return type = :equilateral if a == b && a == c
+  return type = :isosceles if ( ( a == b && a != c) ||
+														  	( a == c && a != b) ||
+														  	( b == c && a != b) )
+  type = :scalene
+  	
 end
 
 # Error class used in part 2.  No need to change this code.
