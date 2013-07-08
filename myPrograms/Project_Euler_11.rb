@@ -10,7 +10,7 @@ def find_greatest_product(array)
 	posY = 0
 	product = 0
 
-	#while array[posX][posY] != nil do
+	#while array[posX][posY] != nil
 	while posY <= 19
 
 		#Product of four adjacent horizontal (right) numbers
